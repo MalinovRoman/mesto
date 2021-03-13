@@ -1,38 +1,111 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="портфолио Malinov Roman">
-  <meta name="author" content="Roman">
-  <title>mesto</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="index.css">    <!--удалить после создание файлов по БЭМ-->
-  <link rel="stylesheet" href="normalize.css"><!--удалить после создание файлов по БЭМ-->
-  <script src="scr.js"> </script><!--удалить после создание файлов по БЭМ    76888888888--> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="портфолио Malinov Roman">
+    <meta name="author" content="Roman">
+    <title>mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="index.css">
+    <!--удалить после создание файлов по БЭМ-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--удалить после создание файлов по БЭМ-->
+    <script src="scr.js">
+    </script>
+    <!--удалить после создание файлов по БЭМ    76888888888-->
 
 </head>
 
 <body class="page">
 
-<section class="header border">
-  <img class="header__logo"  src="./images/logo.svg" alt="Логотип сайта">
-</section>
 
-<section class="profile border">
-  <img class="profile__avatar border" src="./images/image-avatar.jpg" alt="">
-  <div class="profile__info border">
+    <section class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="Логотип сайта">
+    </section>
 
-  </div>
-  <img class="profile__add-button" src="./images/Add Button.png" alt="конопка добавления">
+    <section class="profile">
+        <img class="profile__avatar" src="./images/image-avatar.jpg" alt="">
+        <div class="profile__info">
+            <h1 class="profile__info-title">Жак-Ив Кусто</h1>
+            <button type="button" class="profile__info-adit-button"></button>
+            <h2 class="profile__info-subtitle">Исследователь океана</h2>
+        </div>
+        <button type="button" class="profile__add-button"> </button>
+        <!-- <img class="profile__add-button" src="./images/Add Button.svg" alt="конопка добавления"> Попробую  через бэкграунд
+-->
 
 
-</section>
+    </section>
 
-<section></section>
+    <section class=" gallery">
+        <article class="gallery__card ">
+            <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min.jpg" alt="фотография Амазонки">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Река Амазонка</h2>
+                <button type="button" class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="gallery__card ">
+            <img class="card__image " src="images/dmitriy-zotov-vdN1CvRocVQ-unsplash-min.jpg" alt="фотография Волги">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Река Волга</h2>
+                <button type="button" class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="gallery__card ">
+            <img class="card__image " src="images/ekaterina-sazonova-YHl80G1uPVw-unsplash-min.jpg" alt="фотография Байкала">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Самое крупное озеров в мире - Байкал</h2>
+                <button type="button" class="card__like-button   "></button>
+            </div>
+        </article>
+        <article class="gallery__card ">
+            <img class="card__image " src="images/rowan-heuvel-DL2M6z4OuGA-unsplash-min.jpg" alt="фотография Меконга">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Река Меконг</h2>
+                <button type="button" class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="gallery__card ">
+            <img class="card__image " src="images/spencer-davis-eSXhKWo2E9w-unsplash-min.jpg" alt="фотография Нила">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Река Нил</h2>
+                <button type="button" class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="gallery__card ">
+            <img class="card__image " src="images/tetiana-shyshkina-gM3oCb8NQuA-unsplash-min.jpg" alt="фотография Москвы-реки">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel">Москва-река</h2>
+                <button type="button" class="card__like-button"></button>
+            </div>
+        </article>
+    </section>
 
-<section></section>
+    <section class="footer">
+        <p class="footer__copyright">&COPY; 2020. Malinov Roman</p>
+    </section> вр для попапа
 
-  
+    <!--popup-->
+    <div class="popup popup_opened">
+        <div class="popup__conteiner ">
+            <button class="popup__button-close" type="button"></button>
+            <h2 class="popup__titel">Редактировать профиль</h2>
+            <form action="" class="popup__form">
+                <input class="popup__input-name" type="text" placeholder="">
+                <hr class="popup__split-line">
+                <input class="popup__input-about" type="text" placeholder="">
+                <hr class="popup__split-line">
+            </form>
+            <button class="popup__button-save" type="submit">Сохранить</button>
+        </div>
+    </div>
+
+
+
+
 </body>
+
 </html>
