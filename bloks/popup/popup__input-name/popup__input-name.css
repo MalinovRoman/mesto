@@ -1,0 +1,14 @@
+.popup__input-name {
+    border: none;
+    margin: 0;
+    margin-top: 54px;
+    width: 358px;
+    height: 14px;
+}
+
+@media (max-width: 768px) {
+    .popup__input-name {
+        margin-top: 75px;
+        width: 238px;
+    }
+}

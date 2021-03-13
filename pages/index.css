@@ -1,0 +1,69 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../bloks/page/page.css');
+
+/* header */
+
+@import url('../bloks/header/header.css');
+@import url('../bloks/header/__logo/header.css');
+
+/* profile */
+
+@import url('../bloks/profile/profile.css');
+@import url('../bloks/profile/__avatar/profile__avatar.css');
+@import url('../bloks/profile/__info/profile__info.css');
+@import url('../bloks/profile/__info/profile__info.css');
+@import url('../bloks/profile/__add-button/pofile__add-button.css');
+@import url('../bloks/profile/__info-title/profile__info-title.css');
+@import url('../bloks/profile/__info-subtitle/profile__info-subtitle.css');
+@import url('../bloks/profile/__info-adit-button/profile__info-adit-button.css');
+
+/* gallery */
+
+@import url('../bloks/gallery/gallery.css');
+@import url('../bloks/card/card.css');
+@import url('../bloks/card/__image/card__image.css');
+@import url('../bloks/card/__description-conteiner/card__description-conteiner.css');
+@import url('../bloks/card/__titel/card__titel.css');
+@import url('../bloks/card/__like-button/card__like-button.css');
+
+/* footer */
+
+@import url('../bloks/footer/footer.css');
+@import url('../bloks/footer/__copyright/footer__copyright.css');
+
+/* popup */
+
+@import url('../bloks/popup/popup.css');
+@import url('../bloks/popup/__conteiner/popup__conteiner.css');
+@import url('../bloks/popup/__button-close/popup__button-close.css');
+@import url('../bloks/popup/__titel/popup__titel.css');
+@import url('../bloks/popup/popup__input-name/popup__input-name.css');
+@import url('../bloks/popup/__input-about/popup__input-about.css');
+@import url('../bloks/popup/__button-save/popup__button-save.css');
+@import url('../bloks/popup/__split-line/popup__split-line.css');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');
+@import url('../bloks/');

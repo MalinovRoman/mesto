@@ -1,0 +1,39 @@
+j .popup__split-line {
+    margin: 0;
+    width: 358px;
+    border: 0 0 0 1px solid #000000;
+    /* ? */
+    opacity: 0.2;
+}
+
+.popup__button-save {
+    width: 358px;
+    height: 50px;
+    margin: 0;
+    margin-top: 48px;
+    background-color: #000000;
+    border-radius: 2px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.popup__button-save:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .popup__input-about {
+        width: 238px;
+    }
+    .popup__split-line {
+        margin: 0;
+        width: 238px;
+    }
+    .popup__button-save {
+        width: 238px;
+        height: 46px;
+        margin: 0;
+        margin-top: 45px;
+    }
+}
