@@ -4,7 +4,14 @@
     margin-top: 54px;
     width: 358px;
     height: 14px;
+    font-family: inherit;   
+    
 }
+
+.popup__input-name:focus {
+    outline-color: #FFFFFF
+}
+
 
 @media (max-width: 768px) {
     .popup__input-name {

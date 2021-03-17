@@ -1,6 +1,6 @@
-@import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 @import url('../bloks/page/page.css');
+@import url('../vendor/normalize.css');
 
 /* header */
 
@@ -42,6 +42,9 @@
 @import url('../bloks/popup/__input-about/popup__input-about.css');
 @import url('../bloks/popup/__button-save/popup__button-save.css');
 @import url('../bloks/popup/__split-line/popup__split-line.css');
+@import url('../bloks/popup/_visible/popup_visible\ .css');
+
+/* 
 @import url('../bloks/');
 @import url('../bloks/');
 @import url('../bloks/');
@@ -65,5 +68,4 @@
 @import url('../bloks/');
 @import url('../bloks/');
 @import url('../bloks/');
-@import url('../bloks/');
-@import url('../bloks/');
+@import url('../bloks/'); */
