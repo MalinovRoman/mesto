@@ -1,9 +1,9 @@
-### Проектная работа 4 в рамках учебного курса Янндекс практикум https://praktikum.yandex.ru/
-### [Ссылка на проект](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
+### Проектная работа 4 в рамках учебного курса [Янндекс практикум](https://praktikum.yandex.ru/)
+### [Ссылка на проект](https://malinovroman.github.io/mesto/)
 
 ------
 
-#### Mesto: проект интерактивной страницы, куда можно добавлять фотографии, удалять их и ставить лайки. [Ссылка на макет в Figma](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
+#### Mesto: проект интерактивной страницы, куда можно добавлять фотографии, удалять их и ставить лайки. [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 
 ------
 
