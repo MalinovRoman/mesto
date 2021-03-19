@@ -6,85 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="портфолио Malinov Roman">
     <meta name="author" content="Roman">
-    <title>mesto</title>
+    <title>место</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="page">
 
-    <section class="header">
+    <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="Логотип сайта">
-    </section>
+    </header>
 
-    <section class="profile">
-        <img class="profile__avatar" src="./images/image-avatar.jpg" alt="Аватарка">
-        <div class="profile__info">
-            <h1 class="profile__info-title">Жак-Ив Кусто</h1>
-            <button type="button" class="profile__info-adit-button" id="toggle_popup-btn"></button>
-            <h2 class="profile__info-subtitle">Исследователь океана</h2>
-        </div>
-        <button type="button" class="profile__add-button"> </button>
-    </section>
-
-    <section class=" gallery">
-        <article class="card ">
-            <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min-min.jpg" alt="фотография Амазонки">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Река Амазонка</h2>
-                <button type="button" class="card__like-button"></button>
+    <main class="content">
+        <section class="profile">
+            <img class="profile__avatar" src="./images/image-avatar.jpg" alt="Аватарка">
+            <div class="profile__info">
+                <h1 class="profile__info-title">Жак-Ив Кусто</h1>
+                <button type="button" class="profile__info-adit-button" id="toggle_popup-btn"></button>
+                <h2 class="profile__info-subtitle">Исследователь океана</h2>
             </div>
-        </article>
-        <article class="card ">
-            <img class="card__image " src="images/dmitriy-zotov-vdN1CvRocVQ-unsplash-min-min.jpg" alt="фотография Волги">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Река Волга</h2>
-                <button type="button" class="card__like-button"></button>
-            </div>
-        </article>
-        <article class="card ">
-            <img class="card__image " src="images/ekaterina-sazonova-YHl80G1uPVw-unsplash-min-min.jpg" alt="фотография Байкала">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Самое крупное озеров в мире - Байкал</h2>
-                <button type="button" class="card__like-button   "></button>
-            </div>
-        </article>
-        <article class="card ">
-            <img class="card__image " src="images/rowan-heuvel-DL2M6z4OuGA-unsplash-min-min.jpg" alt="фотография Меконга">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Река Меконг</h2>
-                <button type="button" class="card__like-button"></button>
-            </div>
-        </article>
-        <article class="card ">
-            <img class="card__image " src="images/spencer-davis-eSXhKWo2E9w-unsplash-min-min.jpg" alt="фотография Нила">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Река Нил</h2>
-                <button type="button" class="card__like-button"></button>
-            </div>
-        </article>
-        <article class="card ">
-            <img class="card__image " src="images/tetiana-shyshkina-gM3oCb8NQuA-unsplash-min-min.jpg" alt="фотография Москвы-реки">
-            <div class="card__description-conteiner ">
-                <h2 class="card__titel">Москва-река</h2>
-                <button type="button" class="card__like-button"></button> 
-            </div>
-        </article>
-    </section>
-
-    <section class="footer">
+            <button type="button" class="profile__add-button"> </button>
+        </section>
+    
+        <section class=" gallery">
+            <article class="card ">
+                <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min-min.jpg"
+                    alt="фотография Амазонки">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Река Амазонка</h2>
+                    <button type="button" class="card__like-button"></button>
+                </div>
+            </article>
+            <article class="card ">
+                <img class="card__image " src="images/dmitriy-zotov-vdN1CvRocVQ-unsplash-min-min.jpg"
+                    alt="фотография Волги">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Река Волга</h2>
+                    <button type="button" class="card__like-button"></button>
+                </div>
+            </article>
+            <article class="card ">
+                <img class="card__image " src="images/ekaterina-sazonova-YHl80G1uPVw-unsplash-min-min.jpg"
+                    alt="фотография Байкала">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Самое крупное озеров в мире - Байкал</h2>
+                    <button type="button" class="card__like-button   "></button>
+                </div>
+            </article>
+            <article class="card ">
+                <img class="card__image " src="images/rowan-heuvel-DL2M6z4OuGA-unsplash-min-min.jpg"
+                    alt="фотография Меконга">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Река Меконг</h2>
+                    <button type="button" class="card__like-button"></button>
+                </div>
+            </article>
+            <article class="card ">
+                <img class="card__image " src="images/spencer-davis-eSXhKWo2E9w-unsplash-min-min.jpg" alt="фотография Нила">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Река Нил</h2>
+                    <button type="button" class="card__like-button"></button>
+                </div>
+            </article>
+            <article class="card ">
+                <img class="card__image " src="images/tetiana-shyshkina-gM3oCb8NQuA-unsplash-min-min.jpg"
+                    alt="фотография Москвы-реки">
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel">Москва-река</h2>
+                    <button type="button" class="card__like-button"></button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
         <p class="footer__copyright">&COPY; 2020. Malinov Roman</p>
-    </section> вр для попапа
+    </footer> 
 
-    <!-- opopup -->
+    <!-- popup -->
     <div class="popup">
         <div class="popup__conteiner">
             <button class="popup__button-close" type="button"></button>
-            <h2 class="popup__titel">Редактировать профиль</h2>
-            <form class="popup__form">
-                <input class="popup__input-name" type="text" placeholder="" value="Жак-Ив Кусто">
-                <hr class="popup__split-line">
-                <input class="popup__input-about" type="text" placeholder="" value="Исследователь океана">
-                <hr class="popup__split-line">
+            <p class="popup__titel">Редактировать профиль</p>
+            <form class="popup__form" name="form">
+
+                <input class="popup__input popup__input_type_name" type="text" placeholder="" value="Жак-Ив Кусто" name="popup-profile-name">
+
+                <!-- <hr class="popup__split-line">  на удаление --> 
+
+                <input class="popup__input popup__input_type_about" type="text" placeholder="" value="Исследователь океана" name="popup-pofile-about">
+                
+                <!-- <hr class="popup__split-line"> на удаление --> 
                 <button class="popup__button-save" type="submit">Сохранить</button>
             </form>
         </div>
