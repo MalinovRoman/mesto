@@ -11,7 +11,6 @@
 </head>
 
 <body class="page">
-
     <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="Логотип сайта">
     </header>
@@ -21,19 +20,19 @@
             <img class="profile__avatar" src="./images/image-avatar.jpg" alt="Аватарка">
             <div class="profile__info">
                 <h1 class="profile__info-title">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__info-adit-button" id="toggle_popup-btn"></button>
+                <button type="button" class="profile__info-adit-button" id="toggle_popup-btn" aria-label="кнопка редактировать"></button>
                 <h2 class="profile__info-subtitle">Исследователь океана</h2>
             </div>
-            <button type="button" class="profile__add-button"> </button>
+            <button type="button" class="profile__add-button" aria-label="кнопка закрыть"> </button>
         </section>
-    
-        <section class=" gallery">
+
+        <section class="gallery">
             <article class="card ">
                 <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min-min.jpg"
                     alt="фотография Амазонки">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Река Амазонка</h2>
-                    <button type="button" class="card__like-button"></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
             <article class="card ">
@@ -41,7 +40,7 @@
                     alt="фотография Волги">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Река Волга</h2>
-                    <button type="button" class="card__like-button"></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
             <article class="card ">
@@ -49,7 +48,7 @@
                     alt="фотография Байкала">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Самое крупное озеров в мире - Байкал</h2>
-                    <button type="button" class="card__like-button   "></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
             <article class="card ">
@@ -57,14 +56,15 @@
                     alt="фотография Меконга">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Река Меконг</h2>
-                    <button type="button" class="card__like-button"></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
             <article class="card ">
-                <img class="card__image " src="images/spencer-davis-eSXhKWo2E9w-unsplash-min-min.jpg" alt="фотография Нила">
+                <img class="card__image " src="images/spencer-davis-eSXhKWo2E9w-unsplash-min-min.jpg"
+                    alt="фотография Нила">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Река Нил</h2>
-                    <button type="button" class="card__like-button"></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
             <article class="card ">
@@ -72,29 +72,25 @@
                     alt="фотография Москвы-реки">
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Москва-река</h2>
-                    <button type="button" class="card__like-button"></button>
+                    <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
                 </div>
             </article>
         </section>
     </main>
     <footer class="footer">
         <p class="footer__copyright">&COPY; 2020. Malinov Roman</p>
-    </footer> 
+    </footer>
 
     <!-- popup -->
     <div class="popup">
         <div class="popup__conteiner">
-            <button class="popup__button-close" type="button"></button>
+            <button class="popup__button-close" type="button" aria-label="кнопка закрыть окно"></button>
             <p class="popup__titel">Редактировать профиль</p>
             <form class="popup__form" name="form">
-
-                <input class="popup__input popup__input_type_name" type="text" placeholder="" value="Жак-Ив Кусто" name="popup-profile-name">
-
-                <!-- <hr class="popup__split-line">  на удаление --> 
-
-                <input class="popup__input popup__input_type_about" type="text" placeholder="" value="Исследователь океана" name="popup-pofile-about">
-                
-                <!-- <hr class="popup__split-line"> на удаление --> 
+                <input class="popup__input popup__input_type_name" type="text" placeholder="" value="Жак-Ив Кусто"
+                    name="popup-profile-name">
+                <input class="popup__input popup__input_type_about" type="text" placeholder=""
+                    value="Исследователь океана" name="popup-pofile-about">
                 <button class="popup__button-save" type="submit">Сохранить</button>
             </form>
         </div>
