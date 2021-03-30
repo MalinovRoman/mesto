@@ -26,8 +26,8 @@
         <button type="button" class="profile__add-button"> </button>
     </section>
 
-    <section class=" gallery">
-        <article class="card ">
+    <section class="gallery">
+        <!-- <article class="card ">
             <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min.jpg" alt="фотография Амазонки">
             <div class="card__description-conteiner ">
                 <h2 class="card__titel">Река Амазонка</h2>
@@ -68,17 +68,17 @@
                 <h2 class="card__titel">Москва-река</h2>
                 <button type="button" class="card__like-button"></button> 
             </div>
-        </article>
+        </article> -->
     </section>
 
     <section class="footer">
         <p class="footer__copyright">&COPY; 2020. Malinov Roman</p>
     </section> вр для попапа
 
-    <!--popup-->
+    <!--profile editing popup-->
     <div class="popup">
         <div class="popup__conteiner">
-            <button class="popup__button-close" type="button"></button>
+            <button class="popup__button-close" type="button" aria-label="кнопка закрыть окно"></button>
             <h2 class="popup__titel">Редактировать профиль</h2>
             <form class="popup__form">
                 <input class="popup__input-name" type="text" placeholder="" value="Жак-Ив Кусто">
@@ -89,8 +89,35 @@
             </form>
         </div>
     </div>
+    
+<!--popup for adding photos-->
+<div class="popup">
+    <div class="popup__conteiner">
+        <button class="popup__button-close" type="button"></button>
+        <h2 class="popup__titel">Новое место</h2>
+        <form class="popup__form">
+            <input class="popup__input-name" type="text" placeholder="" value="Название">
+            <hr class="popup__split-line">
+            <input class="popup__input-about" type="url" placeholder="" value="Сылка на картинку">
+            <hr class="popup__split-line">
+            <button class="popup__button-save" type="submit">Создать</button>
+        </form>
+    </div>
+</div>
 
-    <Script src="./script/script.js"> </Script>
+    <!-- template elements -->
+    <template class="template list-item-template">
+        <article class="card ">
+            <img class="card__image " src="" alt="">
+            <div class="card__description-conteiner ">
+                <h2 class="card__titel"></h2>
+                <button type="button" class="card__like-button  "></button>
+            </div>
+        </article>
+
+    </template>
+
+    <Script defer src="./script/script.js"> </Script>
 </body>
 
 </html>
