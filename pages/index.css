@@ -27,6 +27,7 @@
 @import url('../bloks/card/__titel/card__titel.css');
 @import url('../bloks/card/__like-button/card__like-button.css');
 
+
 /* footer */
 
 @import url('../bloks/footer/footer.css');
@@ -42,8 +43,12 @@
 @import url('../bloks/popup/__button-save/popup__button-save.css');
 @import url('../bloks/popup/_visible/popup_visible\.css');
 
+/* кнопка удаления карточек */
+
+@import url('../bloks/card/__remove-button/card__remove-button.css');
+
+@import url('../bloks/card/__like-button/_active/card__like-button_active.css');
 /* 
-@import url('../bloks/');
 @import url('../bloks/');
 @import url('../bloks/');
 @import url('../bloks/');

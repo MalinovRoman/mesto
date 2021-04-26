@@ -27,7 +27,7 @@
         </section>
 
         <section class="gallery">
-            <article class="card ">
+             <!-- <article class="card ">
                 <img class="card__image " src="images/sebastien-goldberg-w6AIRxw8XSY-unsplash-min-min.jpg"
                     alt="фотография Амазонки">
                 <div class="card__description-conteiner ">
@@ -73,7 +73,7 @@
                 <div class="card__description-conteiner ">
                     <h2 class="card__titel">Москва-река</h2>
                     <button type="button" class="card__like-button" aria-label="кнопка нравится"></button>
-                </div>
+                </div> -->
             </article>
         </section>
     </main>
@@ -81,8 +81,20 @@
         <p class="footer__copyright">&COPY; 2020. Malinov Roman</p>
     </footer>
 
-    <!-- popup -->
-    <div class="popup">
+        <!-- template elements -->
+        <template class="template list-item-template">
+            <article class="card ">
+                <img class="card__image " src="" alt="">
+                <button type="button" class="card__remove-button" aria-label="удаление карточки"></button>
+                <div class="card__description-conteiner ">
+                    <h2 class="card__titel"></h2>
+                    <button type="button" class="card__like-button"  aria-label="кнопка нравится"></button>
+                </div>
+            </article>
+        </template>
+
+    <!-- модальное окно редактирование профиля-->
+    <div class="popup popup_editing_profile">
         <div class="popup__conteiner">
             <button class="popup__button-close" type="button" aria-label="кнопка закрыть окно"></button>
             <p class="popup__titel">Редактировать профиль</p>
@@ -96,7 +108,36 @@
         </div>
     </div>
 
-    <script src="./script/script.js"> </script>
+     <!-- модальное окно рдобавления фотографий--> 
+    <div class="popup popup_add_cards">
+        <div class="popup__conteiner">
+            <button class="popup__button-close" type="button" aria-label="кнопка закрыть окно"></button>
+            <p class="popup__titel">Новое место</p>
+            <form class="popup__form popup__form-add-card" name="form">
+                <input class="popup__input popup__input_type_name-img" type="text" placeholder="" value="Название"
+                    name="popup-pro file-name">
+                <input class="popup__input popup__input_type_url-link" type="гкд" placeholder=""
+                    value="Ссылка на картинку" name="popup-pofile-about">
+                <button class="popup__button-save" type="submit">Добавить</button>
+            </form>
+        </div>
+    </div>
+  
+
+       <!-- модальное окно откытия фотографии из карточки        -->
+        <div class="popup popup_type_image">
+            <div class="popup__conteiner">
+                <button class="popup__button-close" type="button" aria-label="кнопка закрыть окно"></button>
+                <p class="popup__titel_cards"></p>
+                <figure>
+                    <img src="" class="popup__img">
+                    <figcaption class="popup__img-caption"></figcaption>
+                </figure>
+            </div>
+        </div> 
+    
+
+    <script src="./script/script.js" defer> </script>
 </body>
 
 </html>
